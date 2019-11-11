@@ -1,4 +1,4 @@
-##决赛题准备工作
+## 决赛题准备工作
 1、需要准备一台CVM实例（云服务器）<br />
 
 2、需要准备一台CDB实例（云数据库MySQL) 建议使用腾讯云，云数据库MySQL，可以通过实时诊断信息查看自己SQL优化的情况<br>
@@ -69,7 +69,7 @@
 
 ## 待优化SQL语句
 
-###select
+### select
 
 ```sql
     SELECT *
@@ -80,7 +80,7 @@
     LIMIT  0, 20
 ```
 
-###update
+### update
 ```sql
     update `order` set
     create_time = now()

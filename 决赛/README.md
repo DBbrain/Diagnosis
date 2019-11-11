@@ -1,4 +1,4 @@
-##决赛题准备工作
+## 决赛题准备工作
 1、需要准备一台CVM实例（云服务器）<br />
 
 2、需要准备一台CDB实例（云数据库MySQL) 建议使用腾讯云，云数据库MySQL，可以通过实时诊断信息查看自己SQL优化的情况<br>
@@ -71,7 +71,7 @@
 
 ## 待优化SQL语句
 
-###select1
+### select1
 
 ```sql
     select c.custkey, c.phone, sum(o.totalprice) totalprice
@@ -82,7 +82,7 @@
     group by c.custkey, c.phone
 ```
 
-###select2
+### select2
 ```sql
     select *
     from (
@@ -93,7 +93,7 @@
     where orderdate = "2019-08-01"
 ```
 
-###select3
+### select3
 ```sql
     select c.custkey, sum(o.totalprice) totalprice
     from customer c 
@@ -102,7 +102,7 @@
     group by c.custkey
 ```
 
-###select4
+### select4
 ```sql
     select c.custkey, c.phone
     from nation n 

@@ -1,6 +1,6 @@
-##DBbrain建议
+## DBbrain建议
 
-###新表结构及索引
+### 新表结构及索引
 
 ```sql
     CREATE TABLE `region` (
@@ -53,9 +53,9 @@
 ```
 
 
-###SQL语句
+### SQL语句
 
-####select1
+#### select1
 ```sql
     select c.custkey, c.phone, sum(o.totalprice) totalprice
     from nation n 
@@ -66,7 +66,7 @@
 
 ```
 
-####select2
+#### select2
 ```sql
     SELECT
     `t`.`custkey`,
@@ -81,7 +81,7 @@
     `t`.`orderdate`
 ```
 
-###select3
+### select3
 ```sql
     select c.custkey, sum(o.totalprice) totalprice
     from customer c 
@@ -90,7 +90,7 @@
     group by c.custkey
 ```
 
-####select4
+#### select4
 ```sql
     SELECT
     `t1`.`custkey`,
