@@ -54,7 +54,7 @@ https://share.weiyun.com/5EUySvz
 
 <img src="./img/cdb4.jpg" />
 
-建议购买配置：
+#### 建议购买配置：
 ```sql
 地域：请购买和CVM相同的地域（地区）
 数据库版本：MySQL5.7
