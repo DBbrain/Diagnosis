@@ -1,7 +1,33 @@
-## 操作说明
-将数据导入到自己准备的MySQL数据库中，由于数据量大建议使用命令导入（假如您的数据在/root/data目录下）<br/>
+## 数据获取
+由于数据量比较大，请点击下方链接进行下载数据
 
-可以通过服务器连接MySQL，命令：
+https://share.weiyun.com/5EUySvz
+
+数据存放在 “决赛/data” 目录中
+
+运行程序存放在 “决赛/sql_optimization_match” 目录中
+
+## 登录操作
+
+### 云服务器登录
+
+登录云服务器方式有两种：
+
+1、您可以通过腾讯云控制台进行登录，在控制台左上角选择云产品，选择云服务器进入CVM实例列表，点击右边登录选择 “标准登录”
+
+2、您也可以通过SSH进行登录云服务器。
+
+### MySQL控制台登录
+
+登录腾讯云控制台，在控制台左上角选择云产品，选择云数据库MySQL进入CDB实例列表，点击右边登录，进行登录查看
+
+
+## 操作说明
+将data目录和sql_optimization_match目录通过FTP上传到您购买的服务器中
+
+将数据导入到自己准备的MySQL数据库中，由于数据量大建议使用命令导入（假如您的数据在/root/data目录下）
+
+您通过服务器连接MySQL（MySQL信息您可以登录腾讯云平台查看，登录方式请查看上方登录操作），命令：
 ```sql
     mysql -h xx(ip) -P xx(端口) -u xx(用户名) -p xx(密码) 
 ```
@@ -19,6 +45,30 @@
    
    6、source /root/data/region.dat
 ```
+
+### 答题操作
+1、进入sql_optimization_match目录，该目录下有三个文件：
+```sql
+config_template.json 为配置模板需要复制该文件，复制名称为config.json，对config.json进行配置
+
+introduction.txt 为操作流程文件，请参考该流程进行操作
+
+commit_client为提交命令
+```
+命令操作：
+```sql
+cp config_template.json config.json //复制config_template.json 为 config.json
+
+vi config.json //打开文件 进行配置您的MySQL信息
+
+touch select1.sql select2.sql select3.sql select4.sql  //创建四个空文件
+
+//根据下方提供的待优化SQL进行优化，分别将优化后的SQL存放在select1.sql select2.sql select3.sql select4.sql 四个文件中。
+
+./commit_client -operator commit -sqlname select1.sql -filename select1.sql //通过此命令提交优化后的SQL，分别将四条SQL分批提交（也就是一条SQL提交一次）
+```
+
+提交成功后，您可以通过登录MySQL控制台进行查看MySQL运行情况
 
 ## 原表结构
 

@@ -1,0 +1,15 @@
+###################################
+操作指引
+###################################
+1.进入sql_optimization_match文件夹，有可执行文件commmit_client。
+2.配置DB地址：按照config_template.json文件，新建文件config.json,在config.json文件里填入自己的db配置
+3.参赛者将优化后的sql写入文件中，提交时:
+     ./commmit_client -operator commit -sqlname sql1 -filename sql1.sql
+  参数解释：
+    operator参数固定填commit;
+    sqlname参数填自己提交的sql名称;
+    filename参数填保存sql的文件。
+4.如何查看当前正在执行的sql：
+     ./commit_client -operator get_commit
+5.如何查看原始sql：
+     ./commit_client -operator get_origin
