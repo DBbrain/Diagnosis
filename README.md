@@ -21,23 +21,38 @@ https://share.weiyun.com/5EUySvz
 1、需要准备一台CVM实例（云服务器）
 
 购买步骤：
-```sql
+
 1）点击该链接：https://cloud.tencent.com/
 
 2）选择左上角菜单->产品->基础->云服务器->立即选购
-   您还可以通过右上角->控制台->左上角云产品->云服务器->新建
-```
 
+<img src="./img/cvm1.jpg" />
+
+<img src="./img/cvm2.jpg" />
+
+3）您还可以通过右上角->控制台->左上角云产品->云服务器->新建
+
+<img src="./img/cvm3.jpg" />
+
+<img src="./img/cvm4.jpg" />
 
 2、需要准备一台CDB实例（云数据库MySQL) 请购买腾讯云数据库，云数据库MySQL，可以通过腾讯云智能数据库管家DBbrain查看自己SQL优化的情况。
 
 购买步骤：
-```sql
+
 1）点击该链接：https://cloud.tencent.com/
 
 2）选择左上角菜单->产品->基础->云数据库MySQL->立即选购
-   您还可以通过右上角->控制台->左上角云产品->云数据库MySQL->新建
-```
+
+<img src="./img/cdb1.jpg" />
+
+<img src="./img/cdb2.jpg" />
+
+3)您还可以通过右上角->控制台->左上角云产品->云数据库MySQL->新建
+
+<img src="./img/cdb3.jpg" />
+
+<img src="./img/cdb4.jpg" />
 
 建议购买配置：
 ```sql
