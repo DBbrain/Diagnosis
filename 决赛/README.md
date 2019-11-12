@@ -17,7 +17,7 @@ https://share.weiyun.com/5EUySvz
 
 <img src="../img/cvm.jpg" />
 
-<img src="../img/cvm_1.jpg" />
+<img src="../img/cvm_1.png" />
 
 2、您也可以通过SSH进行登录云服务器。
 
@@ -27,7 +27,7 @@ https://share.weiyun.com/5EUySvz
 
 <img src="../img/cdb.png" />
 
-<img src="../img/cdb_1.png" />
+<img src="../img/cdb_1.jpg" />
 
 ## 操作说明
 将data目录和sql_optimization_match目录通过FTP上传到您购买的服务器中
