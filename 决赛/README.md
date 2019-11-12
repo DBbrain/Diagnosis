@@ -17,7 +17,7 @@ https://share.weiyun.com/5EUySvz
 
 <img src="../img/cvm.jpg" />
 
-<img src="../img/cvm-1.jpg" />
+<img src="../img/cvm_1.jpg" />
 
 2、您也可以通过SSH进行登录云服务器。
 
@@ -27,7 +27,7 @@ https://share.weiyun.com/5EUySvz
 
 <img src="../img/cdb.png" />
 
-<img src="../img/cdb-1.png" />
+<img src="../img/cdb_1.png" />
 
 ## 操作说明
 将data目录和sql_optimization_match目录通过FTP上传到您购买的服务器中
@@ -44,13 +44,13 @@ https://share.weiyun.com/5EUySvz
    
    2、use dbaas; //选择库
    
-   3、source /root/data/customer.dat 
+   3、source /root/data/customer.sql 
    
-   4、source /root/data/nation.dat 
+   4、source /root/data/nation.sql 
    
-   5、source /root/data/orders.dat
+   5、source /root/data/orders.sql
    
-   6、source /root/data/region.dat
+   6、source /root/data/region.sql
 ```
 
 ### 答题操作
