@@ -17,6 +17,8 @@ https://share.weiyun.com/5EUySvz
 
 <img src="../img/cvm.jpg" />
 
+<img src="../img/cvm-1.jpg" />
+
 2、您也可以通过SSH进行登录云服务器。
 
 ### MySQL控制台登录
@@ -24,6 +26,8 @@ https://share.weiyun.com/5EUySvz
 登录腾讯云控制台，在控制台左上角选择云产品，选择云数据库MySQL进入CDB实例列表，点击右边登录，进行登录查看
 
 <img src="../img/cdb.png" />
+
+<img src="../img/cdb-1.png" />
 
 ## 操作说明
 将data目录和sql_optimization_match目录通过FTP上传到您购买的服务器中
