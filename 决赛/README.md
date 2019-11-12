@@ -23,7 +23,7 @@ https://share.weiyun.com/5EUySvz
 
 登录腾讯云控制台，在控制台左上角选择云产品，选择云数据库MySQL进入CDB实例列表，点击右边登录，进行登录查看
 
-<img src="../img/cdb.jpg" />
+<img src="../img/cdb.png" />
 
 ## 操作说明
 将data目录和sql_optimization_match目录通过FTP上传到您购买的服务器中
