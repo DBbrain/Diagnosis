@@ -97,7 +97,7 @@ nohup ./match -operator commit -update update_commit.sql -select select_commit.s
 tail -f nohup.out //查看运行情况，如果返回查询结果集正确，说明提交成功了
 ```
 
-提交成功后，您可以通过登录MySQL控制台进行查看MySQL运行情况
+提交成功后，您可以通过数据库智能管家DBbrain进行查看MySQL运行情况或者登录MySQL控制台进行查看MySQL运行情况
 
 
 ## 原表结构

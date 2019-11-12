@@ -68,7 +68,7 @@ touch select1.sql select2.sql select3.sql select4.sql  //创建四个空文件
 ./commit_client -operator commit -sqlname select1.sql -filename select1.sql //通过此命令提交优化后的SQL，分别将四条SQL分批提交（也就是一条SQL提交一次）
 ```
 
-提交成功后，您可以通过登录MySQL控制台进行查看MySQL运行情况
+提交成功后，您可以通过数据库智能管家DBbrain进行查看MySQL运行情况或者登录MySQL控制台进行查看MySQL运行情况
 
 ## 原表结构
 
