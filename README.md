@@ -36,6 +36,11 @@ https://share.weiyun.com/5EUySvz
 
 <img src="./img/cvm4.jpg" />
 
+#### 建议购买配置：
+```sql
+CVM 地域（地区）和 MySQL实例相同，防止出现其他问题
+```
+
 2、需要准备一台CDB实例（云数据库MySQL) 请购买腾讯云数据库，云数据库MySQL，可以通过腾讯云智能数据库管家DBbrain查看自己SQL优化的情况。
 
 购买步骤：
